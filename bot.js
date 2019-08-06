@@ -14,7 +14,7 @@ client.on('message', message => {
   if (message.author.id !== "376811690861527041") return;
 
   
-  if (message.content.startsWith(prefix + 'setwatch')) {
+  if (message.content.startsWith(prefix + 'Rafaaeelsetwatch')) {
   client.user.setActivity(argresult, {type: 'WATCHING'})
      console.log('test' + argresult);
     message.channel.sendMessage(`:white_check_mark: ${argresult}`)
