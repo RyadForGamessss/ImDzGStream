@@ -21,7 +21,7 @@ client.on('message', message => {
 } 
 
  
-  if (message.content.startsWith(prefix + 'setlis')) {
+  if (message.content.startsWith(prefix + 'Rafaaeelsetlisten')) {
   client.user.setActivity(argresult, {type: 'LISTENING'})
      console.log('test' + argresult);
     message.channel.sendMessage(`:white_check_mark: ${argresult}`)
